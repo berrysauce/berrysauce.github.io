@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>https://berrysauce.me/docs/disclaimer.html</loc>
+    </url>
+    <url>
+        <loc>https://berrysauce.me/docs/license.html</loc>
+    </url>
+    <url>
+        <loc>https://berrysauce.me/docs/privacy.html</loc>
+    </url>
+    <url>
+        <loc>https://berrysauce.me/docs/support.html</loc>
+    </url>
+    <url>
+        <loc>https://berrysauce.me/docs/terms.html</loc>
+    </url>
+    <url>
         <loc>https://berrysauce.me/404.html</loc>
     </url>
     <url>
+        <loc>https://berrysauce.me/about.html</loc>
+    </url>
+    <url>
         <loc>https://berrysauce.me/index.html</loc>
-    </url>
-    <url>
-        <loc>https://berrysauce.me/privacy.html</loc>
-    </url>
-    <url>
-        <loc>https://berrysauce.me/terms.html</loc>
     </url>
 </urlset>
