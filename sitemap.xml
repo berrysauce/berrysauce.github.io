@@ -4,13 +4,19 @@
         <loc>https://berrysauce.me/404.html</loc>
     </url>
     <url>
+        <loc>https://berrysauce.me/contact.html</loc>
+    </url>
+    <url>
         <loc>https://berrysauce.me/disclaimer.html</loc>
     </url>
     <url>
-        <loc>https://berrysauce.me/index.html</loc>
+        <loc>https://berrysauce.me/</loc>
     </url>
     <url>
         <loc>https://berrysauce.me/license.html</loc>
+    </url>
+    <url>
+        <loc>https://berrysauce.me/pgp.html</loc>
     </url>
     <url>
         <loc>https://berrysauce.me/privacy.html</loc>
