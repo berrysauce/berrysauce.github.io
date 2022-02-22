@@ -1,0 +1,11 @@
+.footer-basic ul a {
+  color: rgb(69,69,69);
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+  color: rgb(69,69,69);
+}
+
