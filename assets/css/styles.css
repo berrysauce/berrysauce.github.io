@@ -228,7 +228,8 @@ div.heading {
     margin-bottom: 3rem;
 }
 img.logo {
-    height: 32px;
+    height: 24px;
+    margin-top: 6px;
 }
 a {
     text-decoration: none;
