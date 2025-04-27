@@ -9,71 +9,131 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-    <div class="color-bar"></div>
-    <div class="page">
-        <div class="section section-xl">
-            <div class="container">
-                <div class="section section-lg">
-                    <div class="heading">
-                        <!-- Logo & social links -->
-                        <a href="/">
-                            <img class="logo" src="/assets/img/logo.webp" srcset="/assets/img/logo@2x.webp 2x, /assets/img/logo@3x.webp 3x" alt="berrysauce" width="147" height="24">
-                        </a>
-                        <ul class="social">
-                            <li>
-                                <a href="https://github.com/berrysauce/" target="_blank" aria-label="GitHub">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#000000" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://bsky.app/profile/berrysauce.dev" target="_blank" aria-label="Bluesky">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#000000" d="M111.8 62.2C170.2 105.9 233 194.7 256 242.4c23-47.6 85.8-136.4 144.2-180.2c42.1-31.6 110.3-56 110.3 21.8c0 15.5-8.9 130.5-14.1 149.2C478.2 298 412 314.6 353.1 304.5c102.9 17.5 129.1 75.5 72.5 133.5c-107.4 110.2-154.3-27.6-166.3-62.9l0 0c-1.7-4.9-2.6-7.8-3.3-7.8s-1.6 3-3.3 7.8l0 0c-12 35.3-59 173.1-166.3 62.9c-56.5-58-30.4-116 72.5-133.5C100 314.6 33.8 298 15.7 233.1C10.4 214.4 1.5 99.4 1.5 83.9c0-77.8 68.2-53.4 110.3-21.8z"/></svg>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://dribbble.com/berrysauce" target="_blank" aria-label="Dribbble">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#000000" d="M256 8C119.3 8 8 119.3 8 256s111.3 248 248 248 248-111.3 248-248S392.7 8 256 8zm164 114.4c29.5 36 47.4 82 47.8 132-7-1.5-77-15.7-147.5-6.8-5.8-14-11.2-26.4-18.6-41.6 78.3-32 113.8-77.5 118.3-83.5zM396.4 97.9c-3.8 5.4-35.7 48.3-111 76.5-34.7-63.8-73.2-116.2-79-124 67.2-16.2 138 1.3 190.1 47.5zm-230.5-33.3c5.6 7.7 43.4 60.1 78.5 122.5-99.1 26.3-186.4 25.9-195.8 25.8C62.4 147.2 106.7 92.6 165.9 64.6zM44.2 256.3c0-2.2 0-4.3 .1-6.5 9.3 .2 111.9 1.5 217.7-30.1 6.1 11.9 11.9 23.9 17.2 35.9-76.6 21.6-146.2 83.5-180.5 142.3C64.8 360.4 44.2 310.7 44.2 256.3zm81.8 167.1c22.1-45.2 82.2-103.6 167.6-132.8 29.7 77.3 42 142.1 45.2 160.6-68.1 29-150 21.1-212.8-27.9zm248.4 8.5c-2.2-12.9-13.4-74.9-41.2-151 66.4-10.6 124.7 6.8 131.9 9.1-9.4 58.9-43.3 109.8-90.8 142z"/></svg>
-                                </a>
-                            </li>
-                        </ul>                    
-                    </div>
+    <section class="section section-lg section-xl">
+        <div class="container">
+            <div class="content-box content-box-lg">
+                <div>
+                    <!-- Icon -->
+                    <svg height="48px" viewBox="0 0 3349 4096" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g transform="matrix(1,0,0,1,-373.918,0)">
+                        <g id="document" transform="matrix(1,0,0,1,2048,2048)">
+                            <g transform="matrix(4.3496,0,0,4.3496,0,4156.36)">
+                            <rect class="animated-rect" x="-384.882" y="-1167.59" width="173.882" height="240.232"/>
+                            <rect class="animated-rect" x="-258.893" y="-1426.24" width="240.183" height="173.78"/>
+                            <rect class="animated-rect" x="66.898" y="-1426.42" width="114.304" height="173.77"/>
+                            <rect class="animated-rect" x="-125.832" y="-1167.34" width="184.985" height="240.24"/>
+                            <rect class="animated-rect" x="144.61" y="-1167.34" width="240.272" height="240.24"/>
+                            <rect class="animated-rect" x="-258.665" y="-841.729" width="170.826" height="161.19"/>
+                            <rect class="animated-rect" x="-2.776" y="-841.729" width="239.921" height="161.19"/>
+                            <rect class="animated-rect" x="-122.736" y="-595.302" width="239.921" height="110.578"/>
+                            </g>
+                        </g>
+                        </g>
+                    </svg>
 
-                    <!-- Hero text -->
-                    <p class="font-size-lg hero-text">Moin, I'm Paul. I'm a German student, developer &amp; hobby designer who likes to make stuff.</p>
-                    
-                    <!-- Pinned GitHub repositories -->
-                    <div id="gh-pinned-loading">
-                        <p class="text-center"><span class="loader"></span></p>
-                    </div>
-                    <div id="gh-pinned" class="row gutter"></div>
-                    <script src="/assets/js/scripts.js" defer></script>
+                    <!-- Introduction -->
+                    <h1 class="name">Paul Haedrich</h1>
+                    <p class="muted">Moin, I'm Paul. I'm a student, developer &amp; designer who likes to make stuff. I'm currently working in Germany &amp; studying Computer Science.<br><br>
+                        <span class="social">
+                            <!-- GitHub -->
+                            <a href="https://github.com/berrysauce/" target="_blank" class="social">
+                                <svg class="social" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8"></path>
+                                </svg>
+                            </a>
+                            <!-- Dribbble -->
+                            <a href="https://dribbble.com/berrysauce" target="_blank" class="social">
+                                <svg class="social social-lg" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M14.384 14.38a22.877 22.877 0 0 1 1.056 4.863l.064 .644l.126 1.431a10 10 0 0 1 -9.15 -.98l2.08 -2.087l.246 -.24c1.793 -1.728 3.41 -2.875 5.387 -3.566l.191 -.065zm6.09 -.783l.414 .003l.981 .014a9.997 9.997 0 0 1 -4.319 6.704l-.054 -.605c-.18 -2.057 -.55 -3.958 -1.163 -5.814c1.044 -.182 2.203 -.278 3.529 -.298l.611 -.004zm-7.869 -3.181a24.91 24.91 0 0 1 1.052 2.098c-2.276 .77 -4.142 2.053 -6.144 3.967l-.355 .344l-2.236 2.24a10 10 0 0 1 -2.917 -6.741l-.005 -.324l.004 -.25h1.096l.467 -.002c3.547 -.026 6.356 -.367 8.938 -1.295l.1 -.037zm9.388 1.202l-1.515 -.02c-1.86 -.003 -3.45 .124 -4.865 .402a26.112 26.112 0 0 0 -1.163 -2.38c1.393 -.695 2.757 -1.597 4.179 -2.75l.428 -.354l.816 -.682a10 10 0 0 1 2.098 5.409l.022 .375zm-14.663 -8.46l1.266 1.522c1.145 1.398 2.121 2.713 2.949 3.985c-2.26 .766 -4.739 1.052 -7.883 1.081l-.562 .004h-.844a10 10 0 0 1 5.074 -6.593zm9.67 .182c.53 .306 1.026 .657 1.483 1.046l-1.025 .857c-1.379 1.128 -2.688 1.993 -4.034 2.649c-.89 -1.398 -1.943 -2.836 -3.182 -4.358l-.474 -.574l-.485 -.584a10 10 0 0 1 7.717 .964z" stroke-width="0" fill="currentColor"></path>
+                                </svg>
+                            </a>
+                            <!-- Bluesky -->
+                            <a href="https://bsky.app/profile/berrysauce.dev" target="_blank" class="social">
+                                <svg class="social" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="18px" height="18px">
+                                    <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                                    <path d="M111.8 62.2C170.2 105.9 233 194.7 256 242.4c23-47.6 85.8-136.4 144.2-180.2c42.1-31.6 110.3-56 110.3 21.8c0 15.5-8.9 130.5-14.1 149.2C478.2 298 412 314.6 353.1 304.5c102.9 17.5 129.1 75.5 72.5 133.5c-107.4 110.2-154.3-27.6-166.3-62.9l0 0c-1.7-4.9-2.6-7.8-3.3-7.8s-1.6 3-3.3 7.8l0 0c-12 35.3-59 173.1-166.3 62.9c-56.5-58-30.4-116 72.5-133.5C100 314.6 33.8 298 15.7 233.1C10.4 214.4 1.5 99.4 1.5 83.9c0-77.8 68.2-53.4 110.3-21.8z"/>
+                                </svg>
+                            </a>
+                            <!-- Email -->
+                            <a href="mailto:hey@berrysauce.dev" class="social">
+                                <svg class="social social-lg" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="social">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" stroke-width="0" fill="currentColor"></path>
+                                    <path d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" stroke-width="0" fill="currentColor"></path>
+                                </svg>
+                            </a>
+                        </span>
+                    </p>
+                </div>
 
-                    <!-- Main text -->
-                    <div class="main-text">
-                        <p class="font-size-lg">I love open source. <span>Most of my projects are available on GitHub with open source licenses. Without open source software, a large portion of the internet we're using today wouldn't be possible. It's just great to see people around the world collaborating on great projects.</span></p>
-                    </div>
+                <hr class="divider">
 
-                    <div class="main-text">
-                        <p class="font-size-lg">I work with <span>Python, HTML & CSS, JavaScript & TypeScript, Bootstrap 5, FastAPI, Svelte, HonoJS, Redis, NoSQL, Cloudflare, DNS.</span></p>
+                <!-- What I'm working on -->
+                <div>
+                    <p class="header">What I'm working on</p>
+                    <div class="loader" id="gh-pinned-loading">
+                        <p class="center"><span class="loader"></span></p>
                     </div>
+                    <div class="tag-box" id="gh-pinned"></div>
+                </div>
 
-                    <div class="main-text">
-                        <p class="font-size-lg">Want to get in contact? <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg><a href="mailto:hey@berrysauce.dev" target="_blank">Send me an email.</a> If you'd like to use PGP encryption, you can <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-key-round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg><a href="https://berrycdn.com/pgp/berrysauce_pub.asc" target="_blank">download my public PGP key.</a></span></p>
-                    </div>
-                    
-                    <!-- Footer -->
-                    <footer>
-                        <p>Copyright © <span id="copyright-year">2025</span> berrysauce<br/>
-                            <span>
-                                <a href="https://berrycdn.com/legal/disclaimer" target="_blank">Disclaimer</a> &middot;
-                                <a href="https://berrycdn.com/legal/terms" target="_blank">Terms of Service</a> &middot;
-                                <a href="https://berrycdn.com/legal/privacy" target="_blank">Privacy Policy</a
-                            ></span>
-                        </p>
-                    </footer>
+                <hr class="divider">
+
+                <!-- I love open source-->
+                <p class="header">I love open source</p>
+                <p class="muted">Most of my projects are available on GitHub with open source licenses. Without open source software, a large portion of the internet we're using today wouldn't be possible. It's just great to see people around the world collaborating on great projects.</p>
+                
+                <hr class="divider">
+
+                <!-- What I work with -->
+                <p class="header">What I work with</p>
+                <div class="tag-box">
+                    <span class="tag">Python</span>
+                    <span class="tag">JS/TS</span>
+                    <span class="tag">HTML/CSS</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">Swift</span>
+                </div>
+                <div class="tag-box">
+                    <span class="tag">FastAPI</span>
+                    <span class="tag">Hono</span>
+                    <span class="tag">Svelte(Kit)</span>
+                    <span class="tag">Spring</span>
+                    <span class="tag">SwiftUI</span>
+                </div>
+                <div class="tag-box">
+                    <span class="tag">PostgreSQL</span>
+                    <span class="tag">Redis</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">NoSQL</span>
+                </div>
+                <div class="tag-box">
+                    <span class="tag">GitHub</span>
+                    <span class="tag">Azure</span>
+                    <span class="tag">AWS</span>
+                    <span class="tag">Cloudflare</span>
+                </div>
+                
+                <hr class="divider">
+
+                <!-- Support me & my work -->
+                <p class="header">Support me &amp; my work</p>
+                <p class="muted">If you like what I'm doing, consider&nbsp;<a href="https://github.com/sponsors/berrysauce">sponsoring me on GitHub</a>. It motivates and helps me to work on my projects and pay for running costs like servers, domains, and more.</p>
+                
+                <hr class="divider">
+
+                <!-- Get in contact -->
+                <p class="header">Get in contact</p>
+                <p class="muted"><a href="mailto:hey@berrysauce.dev">Send me an email.</a>&nbsp;If you'd like to use PGP encryption, you can&nbsp;<a href="https://berrycdn.com/pgp/berrysauce_pub.asc" rel="nofollow">download my public PGP key</a>.</p>
+                
+                <!-- Footer -->
+                <div class="footer">
+                    <p>Copyright © <span id="copyright-year">2025</span> Paul Haedrich (berrysauce)<br><a href="https://berrycdn.com/legal/disclaimer" rel="nofollow">Disclaimer</a>&nbsp;·&nbsp;<a href="https://berrycdn.com/legal/terms" rel="nofollow">Terms</a>&nbsp;·&nbsp;<a href="https://berrycdn.com/legal/privacy" rel="nofollow">Privacy</a></p>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <script src="/assets/js/scripts.js" defer></script>
 </body>
 </html>
