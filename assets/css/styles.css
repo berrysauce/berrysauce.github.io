@@ -126,6 +126,25 @@ h1.name {
     line-height: 1.2;
 }
 
+/* acessibility */
+.high-contrast * {
+    color: #000 !important; /* Force all text to black */
+}
+.high-contrast .social {
+    color: inherit; /* Force all SVG elements to black */
+    fill: inherit; /* Force all SVG elements to black */
+}
+button.change-contrast {
+    font-size: 14px;
+    color: rgba(33,37,41);
+    border-radius: 4px;
+    padding: 2px 8px;
+    margin-top: -36px;
+    border: 1px solid rgb(222,223,223);
+    background-color: rgba(255,255,255,0);
+    float: right;
+}
+
 /* tags */
 .tag-box {
     max-width: 100%;
@@ -205,8 +224,7 @@ a {
 
 /* footer */
 div.footer {
-    font-size: 10px;
-    color: rgba(33,37,41,0.4);
+    font-size: 12px;
     margin-top: 64px;
 }
   

@@ -75,6 +75,15 @@ const span = document.getElementById("copyright-year")
 let year = d.getFullYear();
 span.innerHTML = year;
 
+const contrastButton = document.getElementById("contrast-toggle");
+
+contrastButton.addEventListener("click", () => {
+  const isActive = document.body.classList.toggle("high-contrast");
+  
+  // Update aria-pressed state for accessibility
+  contrastButton.setAttribute("aria-pressed", isActive);
+});
+
 document.addEventListener("DOMContentLoaded", function() {
     loadPinned();
 });
