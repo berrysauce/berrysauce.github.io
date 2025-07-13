@@ -4,17 +4,19 @@
 /* body */
 body {
     margin: 0;
-    font-family: Inter, sans-serif;;
+    font-family: Inter, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
-    color: rgb(33,37,41);
+    color: rgb(33, 37, 41);
     text-align: left;
     background-color: #ffffff;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 a:-webkit-any-link {
@@ -46,14 +48,14 @@ a:-webkit-any-link {
     --gutter-x: 1.5rem;
     --gutter-y: 0;
     width: 100%;
-    padding-right: calc(var(--gutter-x)* .5);
-    padding-left: calc(var(--gutter-x)* .5);
+    padding-right: calc(var(--gutter-x) * 0.5);
+    padding-left: calc(var(--gutter-x) * 0.5);
     margin-right: auto;
     margin-left: auto;
 }
 @media (min-width: 992px) {
     .content-box-lg {
-        padding: 3rem!important;
+        padding: 3rem !important;
     }
 }
 .content-box {
@@ -86,8 +88,8 @@ a.social {
     color: inherit;
 }
 svg.social {
-    fill: rgba(33,37,41,0.3);
-    color: rgba(33,37,41,0.3);
+    fill: rgba(33, 37, 41, 0.3);
+    color: rgba(33, 37, 41, 0.3);
     transition: 0.5s ease-in-out;
     font-size: 18px;
 }
@@ -95,9 +97,12 @@ svg.social-lg {
     margin-bottom: -1px;
     font-size: 20px;
 }
+svg.social-xl {
+    margin-bottom: -2px;
+}
 svg.social:hover {
-    fill: #000000!important;
-    color: #000000!important;
+    fill: #000000 !important;
+    color: #000000 !important;
 }
 
 /* font */
@@ -113,7 +118,7 @@ p.header {
     margin-bottom: 8px;
 }
 p.muted {
-    color: rgba(33,37,41,0.6);
+    color: rgba(33, 37, 41, 0.6);
 }
 p.center {
     text-align: center;
@@ -136,12 +141,12 @@ h1.name {
 }
 button.change-contrast {
     font-size: 14px;
-    color: rgba(33,37,41);
+    color: rgba(33, 37, 41);
     border-radius: 4px;
     padding: 2px 8px;
     margin-top: -36px;
-    border: 1px solid rgb(222,223,223);
-    background-color: rgba(255,255,255,0);
+    border: 1px solid rgb(222, 223, 223);
+    background-color: rgba(255, 255, 255, 0);
     float: right;
 }
 
@@ -156,15 +161,15 @@ button.change-contrast {
     cursor: default;
     transition: 0.5s ease-in-out;
     font-size: 14px;
-    color: rgba(33,37,41,0.6);
+    color: rgba(33, 37, 41, 0.6);
     border-radius: 4px;
     padding: 2px 8px;
     margin-bottom: 10px;
     margin-right: 8px;
-    border: 1px solid rgb(222,223,223);
+    border: 1px solid rgb(222, 223, 223);
 }
 .tag:hover {
-    color: rgb(33,37,41)!important;
+    color: rgb(33, 37, 41) !important;
 }
 .tag-dot {
     font-size: 10px;
@@ -177,8 +182,8 @@ a.tag-link {
 }
 a.tag-more-link {
     font-weight: 400;
-    color: rgba(33,37,41,0.6);
-    font-size: 14px; 
+    color: rgba(33, 37, 41, 0.6);
+    font-size: 14px;
     padding: 2px;
 }
 
@@ -186,7 +191,7 @@ a.tag-more-link {
 span.loader {
     width: 16px;
     height: 16px;
-    border: 2px solid rgb(203,203,203);
+    border: 2px solid rgb(203, 203, 203);
     border-bottom-color: transparent;
     border-radius: 50%;
     display: inline-block;
@@ -194,7 +199,7 @@ span.loader {
     animation: rotation 1s linear infinite;
 }
 div.loader {
-    padding: 12px
+    padding: 12px;
 }
 @keyframes rotation {
     0% {
@@ -207,10 +212,10 @@ div.loader {
 
 /* effects */
 .show {
-    display: block!important;
+    display: block !important;
 }
 .hide {
-    display: none!important;
+    display: none !important;
 }
 
 /* extracted inline styles */
@@ -227,4 +232,3 @@ div.footer {
     font-size: 12px;
     margin-top: 64px;
 }
-  
